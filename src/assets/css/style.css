@@ -1,0 +1,72 @@
+a {
+    text-decoration: none;
+}
+
+.right-layout {
+    float: right;
+    width: 1000px;
+}
+
+.left-layout {
+    float: left;
+    width: 200px;
+}
+
+.img-fix-size {
+    width: 200px;
+}
+
+.mar-left {
+    float: left;
+    max-width: 96%;
+}
+
+.mar-right {
+    float: right;
+}
+
+.my-audio {
+    width: 90%;
+}
+
+.podcast-bg {
+    background-image: url('https://static.vnncdn.net/v1/icon/vnn/podcast-cv-light-desktop.jpg'), url('https://static.vnncdn.net/v1/icon/vnn/podcast-cv-light-desktop.jpg');
+    background-size: cover;
+    max-width: 90%;
+}
+
+.podcast-player {
+    background: rgb(124 124 124 / 0.5);
+}
+.wl-7{
+    width: 70%;
+}
+.wr-3{
+    max-width: 30%;
+}
+.podcast-speed {
+    border: 1px solid #fff;
+    border-radius: 40px;
+    color: #fff;
+    padding: 2px 10px;
+}
+.podcast-speed-list{
+    background: #fff;
+    border-radius: 5px;
+    position: absolute;
+    border: 1px solid rgba(32,37,57,0.5);
+    margin-top: 32px;
+    margin-left: -320px;
+    padding: 8px 10px;
+    display: flex;
+    list-style: none;
+}
+.podcast-speed-list li{
+    border: 1px solid #d2d1d1;
+    border-radius: 4px;
+    padding: 2px 5px;
+    margin-right: 4px;
+}
+.podcast-speed-list li.active {
+    background-color: #f1f1f1;
+}
